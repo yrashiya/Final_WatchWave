@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReview" targetNamespace="http://tempuri.org/DSReview.xsd" xmlns:mstns="http://tempuri.org/DSReview.xsd" xmlns="http://tempuri.org/DSReview.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReview" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DSReview" msprop:Generator_DataSetName="DSReview">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Review" msprop:Generator_RowEvHandlerName="ReviewRowChangeEventHandler" msprop:Generator_RowDeletedName="ReviewRowDeleted" msprop:Generator_RowDeletingName="ReviewRowDeleting" msprop:Generator_RowEvArgName="ReviewRowChangeEvent" msprop:Generator_TablePropName="Review" msprop:Generator_RowChangedName="ReviewRowChanged" msprop:Generator_RowChangingName="ReviewRowChanging" msprop:Generator_TableClassName="ReviewDataTable" msprop:Generator_RowClassName="ReviewRow" msprop:Generator_TableVarName="tableReview" msprop:Generator_UserTableName="Review">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReviewId" msprop:Generator_ColumnPropNameInRow="ReviewId" msprop:Generator_ColumnPropNameInTable="ReviewIdColumn" msprop:Generator_ColumnVarNameInTable="columnReviewId" msprop:Generator_UserColumnName="ReviewId" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="ReviewText" msprop:Generator_ColumnPropNameInRow="ReviewText" msprop:Generator_ColumnPropNameInTable="ReviewTextColumn" msprop:Generator_ColumnVarNameInTable="columnReviewText" msprop:Generator_UserColumnName="ReviewText" type="xs:string" minOccurs="0" />
+              <xs:element name="ReviewDate" msprop:Generator_ColumnPropNameInRow="ReviewDate" msprop:Generator_ColumnPropNameInTable="ReviewDateColumn" msprop:Generator_ColumnVarNameInTable="columnReviewDate" msprop:Generator_UserColumnName="ReviewDate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

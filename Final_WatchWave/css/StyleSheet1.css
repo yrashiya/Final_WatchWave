@@ -1,0 +1,28 @@
+﻿.logout-icon i {
+    color: #222; /* dark icon */
+    transition: color 0.3s;
+}
+
+    .logout-icon i:hover {
+        color: #000; /* pure black on hover */
+    }
+
+
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* keeps proportions */
+    border-radius: 50%; /* makes it circular */
+    border: 3px solid #4CAF50; /* green border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .logo-img:hover {
+        transform: scale(1.1); /* zoom effect */
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        border-color: #2196F3; /* changes border color on hover */
+    }
+
+
